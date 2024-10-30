@@ -3,6 +3,8 @@ body {
     background-color: rgb(80, 131, 148);
 }
 
+/** HOME PAGE STYLING **/
+
 .head {
     display: flex;
     align-items: center;
@@ -63,3 +65,53 @@ nav > button {
     text-decoration: underline;
     font-size: 1.75rem;
 }
+
+/** HOME PAGE STYLING **/
+
+
+
+/** MENU PAGE STYLING **/
+
+
+
+.menu {
+    display: flex;
+    height: 400px;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px 0 0 0;
+    padding: 1.5rem;
+}
+
+.menu-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.desc {
+    height: 50px;
+    width: 250px;
+    padding-left: 5px;
+}
+
+.burger1, .burger2, .fry1, .fry2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+/** MENU PAGE STYLING **/
+
+
+
+/** ABOUT PAGE STYLING **/
+
+
+
+/** ABOUT PAGE STYLING **/

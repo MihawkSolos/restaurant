@@ -1,0 +1,5 @@
+export {loadAboutPage};
+
+const loadAboutPage = () => {
+
+};
