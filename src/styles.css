@@ -1,6 +1,18 @@
+:root {
+    --myFont: 'Itim', cursive;
+    --fontColor: #fff;
+    --buttonBckgrnd: rgb(24, 88, 109);
+}
+
 body {
     margin: 0;
     background-color: rgb(80, 131, 148);
+    font-family: var(--myFont);
+}
+
+.welcome {
+    font-size: 3rem;
+    font-family: var(--myFont);
 }
 
 /** HOME PAGE STYLING **/
@@ -25,6 +37,8 @@ nav > button {
     height: 3rem;
     text-align: center;
     margin: 0 50px;
+    background-color: var(--buttonBckgrnd);
+    font-size: 1rem;
 }
 
 #content {
@@ -112,6 +126,30 @@ nav > button {
 
 /** ABOUT PAGE STYLING **/
 
+.contact-info {
+    display: flex;
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    /** stuff below keeps the whole div centered **/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.contact-message {
+    font-size: 2rem;
+    margin: 0 0 5px 0;
+}
+
+.number, .email {
+    font-size: 1.1rem;
+}
 
 /** ABOUT PAGE STYLING **/

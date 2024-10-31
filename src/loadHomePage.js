@@ -3,6 +3,12 @@ export {loadHomePage};
 const loadHomePage = () => {
     const contentDiv = document.querySelector('#content');
 
+    // clearing the div first
+    while (contentDiv.firstChild) {
+        contentDiv.removeChild(contentDiv.firstChild);
+    }
+
+
     const mainContentDiv = document.createElement('div');
     mainContentDiv.classList.add('main-content');
     contentDiv.appendChild(mainContentDiv);

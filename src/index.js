@@ -3,7 +3,7 @@ import { loadHomePage } from './loadHomePage';
 import { loadMenuPage } from './loadMenuPage';
 import { loadAboutPage } from './loadAboutPage';
 
-//loadHomePage();
+loadHomePage();
 
 
 const homeBtn = document.querySelector('.btn1');

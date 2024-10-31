@@ -4,6 +4,12 @@ const loadMenuPage = () => {
 
     const contentDiv = document.querySelector('#content');
 
+    // clearing the div first
+    while (contentDiv.firstChild) {
+        contentDiv.removeChild(contentDiv.firstChild);
+    }
+    
+
     const menu = document.createElement('div');
     menu.classList.add('menu');
     contentDiv.appendChild(menu);
